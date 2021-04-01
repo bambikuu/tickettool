@@ -24,7 +24,7 @@ client.on("message", (message) => {
     .setTitle(`Ticket Bot Help`)
     .setColor(embedColor)
     .setDescription(`Hi! I'm a Ticket Tool and this is my commands:`)
-    .addField(`Tickets`, `[${prefix}new]() > Opens up a new ticket and tags the Support Team\n[${prefix}close]() > Closes a ticket that has been resolved or been opened by accident\n[${prefix}add]() > Adds a member to a ticket\n[${prefix}remove]() > Removes a member from a ticket`)
+    .addField(`Tickets`, `[${prefix}new]() - Opens up a new ticket and tags the Support Team\n[${prefix}close]() - Closes a ticket that has been resolved or been opened by accident\n[${prefix}add]() - Adds a member to a ticket\n[${prefix}remove]() - Removes a member from a ticket`)
     message.channel.send({ embed: embed });
   }
 
