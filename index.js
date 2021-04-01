@@ -9,7 +9,7 @@ function clean(text) {
 }
 
 const prefix = "t!";
-const token = "ODI2ODA5MDE0NjExNDc2NDkw.YGR35g.yaA6hLD-R1JQ7vkg_hqVRrkQwgg";
+const token = "bottoken";
 const embedColor = 0xE52B50;
 
 client.on("ready", () => {
